@@ -1,0 +1,28 @@
+name: CD
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: CD1
+        run: echo 'CD is Disabled (Check workflow comment for the code).'
+      - name: CD2
+        with:
+          script: |
+            echo 'start sleep'
+            sleep 5
+            echo 'end sleep'
+          
+  after:
+    runs-on: ubuntu-latest
+    
+    steps:
+        - name: CD3
+          run: echo 'This is final CD'
+
+    needs: build
