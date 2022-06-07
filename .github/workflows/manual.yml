@@ -12,6 +12,7 @@ jobs:
       - name: CD1
         run: echo 'CD is Disabled (Check workflow comment for the code).'
       - name: CD2
+        uses: appleboy/ssh-action@master
         with:
           script: |
             echo 'start sleep'
