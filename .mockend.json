@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "status": "1",
+    "message": "Get Inbox Success",
+    "data": [
+        {
+            "ap_regno": "08526RNO2022",
+            "customertype_id": "01",
+            "customertype_desc": "Individu",
+            "customername": "DINDA NADIA",
+            "customerdocument_id": "1212121212121212",
+            "customerdocument_type": "KTP",
+            "product_id": "KPRMG",
+            "product_desc": "",
+            "plafon": "95000000",
+            "track_id": "3.3",
+            "track_name": "3.3 - Input Data Survey",
+            "formCode": "IDS"
+        }
+    ]
+  }
+}
