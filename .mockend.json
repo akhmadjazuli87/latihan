@@ -3,10 +3,10 @@
     "status": { "string": {} },
     "message": { "string": {} },
     "data": {
-      "hasMany": "TaskData"
+      "hasMany": "List"
     }
   },
-  "TaskData": {
+  "List": {
     "ap_regno": { "string": {} },
     "customertype_id": { "string": {} },
     "customertype_desc": { "string": {} },
